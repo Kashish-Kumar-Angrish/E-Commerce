@@ -1,6 +1,5 @@
 import Hero from './Hero.jpg'
 import Icon from './Icon.jpeg'
-import Icon2 from './Icon2.png'
 import pimg1 from './pimg1.jpg'
 import pimg2 from './pimg2.jpg'
 import pimg3 from './pimg3.jpg'
@@ -15,7 +14,6 @@ import pimg10 from './pimg10.jpg'
 const images = {
   Hero,
   Icon,
-  Icon2
 }
 
 {/*
