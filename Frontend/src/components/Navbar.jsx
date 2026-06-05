@@ -11,9 +11,11 @@ const Navbar = () => {
     const [visible, setVisible] = useState(false);
 
     return (
-        <div className='flex justify-between items-center py-5 font-medium '>
-            {/* <img className='h-12 w-auto ' src={images} alt="" /> */}
-            <h1>TRENDORA</h1>
+        <div className='flex justify-between items-center filter:drop-shadow-md py-5 font-medium '>
+            <Link to='/'>
+                <img className='h-12 w-auto' style={{ filter: 'invert(1)', brightness: 1.2, contrast: 1.2 }} src={images.Icon} alt="Trendora logo" />
+            </Link>
+            {/** <h1>TRENDORA</h1> */}
 
             <ul className='hidden sm:flex gap-5 text-sm text-gray-700'>
                 <NavLink to='/' className='flex flex-col items-center gap-1'>
