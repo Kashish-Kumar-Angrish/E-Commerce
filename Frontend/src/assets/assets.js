@@ -10,6 +10,18 @@ import pimg7 from './pimg7.jpg'
 import pimg8 from './pimg8.jpg'
 import pimg9 from './pimg9.jpg'
 import pimg10 from './pimg10.jpg'
+import pimg11 from './pimg11.jpg'
+import pimg12 from './pimg12.jpg'
+import pimg13 from './pimg13.jpg'
+import pimg14 from './pimg14.jpg'
+import pimg15 from './pimg15.jpg'
+import pimg16 from './pimg16.jpg'
+import pimg17 from './pimg17.jpg'
+import pimg18 from './pimg18.jpg'
+import pimg19 from './pimg19.jpg'
+import pimg20 from './pimg20.jpg'
+
+
 
 const images = {
   Hero,
@@ -147,7 +159,7 @@ export const products = [
     "date": 1715666210,
     "bestseller": false
   },
-  {/*
+  {
   "_id": "p011",
   "name": "Women V-Neck Summer Dress",
   "description": "Elegant summer dress made with breathable fabric.",
@@ -266,7 +278,7 @@ export const products = [
   "sizes": ["M", "L", "XL", "XXL"],
   "date": 1715666220,
   "bestseller": true
-*/}
+}
 
   
 ]

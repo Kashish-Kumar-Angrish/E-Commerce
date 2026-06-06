@@ -1,14 +1,16 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import images from '../assets/assets'
 import { Link, NavLink } from 'react-router-dom'
 import { FiSearch } from 'react-icons/fi'
 import { FaRegUser } from 'react-icons/fa'
 import { IoMdCart, IoMdClose } from 'react-icons/io'
 import { RiMenu2Fill } from 'react-icons/ri'
+import { shopContext } from '../context/Shopcontext'
 
 const Navbar = () => {
 
     const [visible, setVisible] = useState(false);
+    const { showSearch, setShowSearch } = useContext(shopContext)
 
     return (
         <div className='flex justify-between items-center filter:drop-shadow-md py-5 font-medium '>
@@ -41,7 +43,7 @@ const Navbar = () => {
             </ul>
 
             <div className='flex items-center gap-6 '>
-                <FiSearch size={20} className='w-5 cursor-pointer' />
+                <FiSearch onClick={() => { setShowSearch(true) }} size={20} className='w-5 cursor-pointer' />
 
                 <div className='group relative '>
                     <FaRegUser className='w-5 cursor-pointer' />
